@@ -1,0 +1,26 @@
+
+[project]
+name = "flet-arabic"
+version = "1.0.0"
+description = "Flet Arabic Demo App"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "flet"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet]
+org = "com.example"
+product = "الله واكبر"
+company = "Ahmed"
+copyright = "Copyright 2026"
+
+[tool.flet.android]
+min_sdk_version = 24
+icon = "icon/img.png"
