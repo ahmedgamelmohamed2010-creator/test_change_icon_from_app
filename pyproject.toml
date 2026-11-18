@@ -23,4 +23,3 @@ copyright = "Copyright 2026"
 
 [tool.flet.android]
 min_sdk_version = 24
-icon = "icon/img.png"
